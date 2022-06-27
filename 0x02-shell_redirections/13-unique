@@ -1,0 +1,2 @@
+#!/bin/bash
+uniq < | ls -1l > sort

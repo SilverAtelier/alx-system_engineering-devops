@@ -1,0 +1,2 @@
+#!/bin/bash
+find -n 1 [[letter]]*
