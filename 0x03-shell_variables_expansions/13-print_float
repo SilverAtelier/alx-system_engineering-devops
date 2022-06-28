@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM | sed
+printf "%f.2\n" $NUM
