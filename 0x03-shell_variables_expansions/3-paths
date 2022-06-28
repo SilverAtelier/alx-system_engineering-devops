@@ -1,2 +1,2 @@
 #!/bin/bash
-set -x | ls $PATH | wc -l
+set -x | pwd $PATH | wc -l
