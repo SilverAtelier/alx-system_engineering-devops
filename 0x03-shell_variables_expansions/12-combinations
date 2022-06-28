@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -not oo {a..z} {a..Z} 
+echo  {a..z} {a..Z} 
