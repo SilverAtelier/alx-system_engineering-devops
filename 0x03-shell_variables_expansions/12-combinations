@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..!o..z} {a..!o..Z}
+echo -not oo {a..z} {a..Z} 
