@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#a-all x-w/wo u-user oriented f-hierachy
+
+ps -auxf
