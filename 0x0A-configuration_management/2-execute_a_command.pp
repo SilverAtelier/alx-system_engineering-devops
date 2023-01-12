@@ -1,5 +1,5 @@
 exec { 'killmenow':
-command => '/usr/bin/pkill killmenow',
-path    => '/',
-refresh => '/usr/bin/pkill -x killmenow'
+command => pkill killmenow',
+path    => '/usr/bin/',
+refresh => 'pkill -x killmenow'
 }
