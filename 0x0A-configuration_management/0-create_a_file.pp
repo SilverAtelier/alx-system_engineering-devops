@@ -1,5 +1,5 @@
 # creating a puppet file
-file { '/tmp':
+file { '/tmp/':
   ensure  => file,
   path    => '/tmp/holberton',
   mode    => '0744',
