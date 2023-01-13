@@ -1,5 +1,5 @@
 
-  file { '~/.ssh/':
+  file { '~/.ssh/school':
     ensure  => present,
     owner   => 'root',
     group   => 'root',
