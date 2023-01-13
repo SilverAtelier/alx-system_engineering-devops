@@ -1,3 +1,5 @@
-exec { 'echo PasswordAuthentication no\nIdentityFile ~/.ssh/school >> /etc/ssh/ssh_config':
-        path    => '/bin/'
+file { 'ssh_config':
+	ensure	=> exists,
+        path    => '/bin',
+        content	=> 'Host 54.82.117.241\nIdentityFile ~/.ssh/school\nPasswordAuthentication no'
 }
