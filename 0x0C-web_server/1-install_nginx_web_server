@@ -5,8 +5,10 @@ sudo apt-get -y install nginx
 FILE=/var/www/html/index.nginx-debian.html
 if test -f "$FILE"; then
 	sudo rm $FILE
+	sudo chmod -R 777 /var/www/html
 	echo 'Hello World!' > /var/www/html/index.html
 else
+	sudo chmod -R 777 /var/www/html
 	echo 'Hello World!' > /var/www/html/index.html
 fi
 sudo service nginx reload
