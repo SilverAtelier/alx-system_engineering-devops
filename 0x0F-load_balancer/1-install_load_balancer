@@ -10,11 +10,11 @@ sudo apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  ehoneah-frontend
+frontend  praconline-frontend
         bind *:80
         mode http
-        default_backend ehoneah-backend
-backend ehoneah-backend
+        default_backend praconline-backend
+backend praconline-backend
         balance roundrobin
         server 78192-web-01 54.157.164.103:80 check
         server 78192-web-02 54.237.24.173:80 check
