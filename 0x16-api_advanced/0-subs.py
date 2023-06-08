@@ -7,7 +7,7 @@ from sys import argv
 
 
 def number_of_subscribers(subreddit):
-    
+    """Get the numbers of subscribers by subreddit given"""
     reddit_url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     headers = {'user-agent': 'request'}
     response = requests.get(reddit_url, headers=headers,
@@ -17,3 +17,4 @@ def number_of_subscribers(subreddit):
     r_json = response.json()
     num_subs = r_json.get("data").get("subscribers")
     return num_subs
+
