@@ -2,6 +2,7 @@
 """
     Uses the reddit API for get the 10 hot posts
 """
+
 import requests
 
 
