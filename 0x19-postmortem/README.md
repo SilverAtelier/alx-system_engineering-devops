@@ -21,7 +21,15 @@ Impact: The online shopping service experienced a complete outage, resulting in 
 **11:10 AM:** The incident was escalated to the network operations team for immediate resolution.
 
 **11:30 AM:** The network switch was replaced, and the load balancer was restarted, restoring the online shopping service.
+<div align="center">
+    <img src="https://media.tenor.com/B7TP3JU7qcAAAAAC/fixed.gif">
+</div>
+
 ## Root Cause and Resolution:
+<div align="center">
+    <img src="https://media.tenor.com/NRoUnno3Wr4AAAAC/iranserver-iran.gif">
+</div>
+
 
 The root cause of the outage was identified as a network switch failure, which resulted in the load balancer becoming unresponsive. The network switch experienced a hardware malfunction, disrupting the traffic flow to the load balancer.
 
@@ -47,3 +55,6 @@ Task: Create a centralized knowledge base with troubleshooting steps for common 
 By implementing these measures, we aim to enhance the reliability and availability of our online shopping service, minimizing the risk of future outages.
 
 In a nutshell, the outage incident was caused by a network switch failure, resulting in the unresponsiveness of the load balancer. The issue was resolved by replacing the faulty switch and restarting the load balancer. Moving forward, we will implement corrective measures to prevent similar incidents and improve the overall stability of our system.
+<div align="center">
+    <img src="https://media.tenor.com/CpbaS2AVjhYAAAAd/server-up-server-is-up.gif">
+</div>
